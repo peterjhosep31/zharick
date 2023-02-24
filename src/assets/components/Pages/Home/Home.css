@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Header {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    ;
+    background: #0BBACF;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+}
+
+Main {
+    display: flex;
+    align-items: center;
+
+}
+
+.image_main {
+    background: url('https://res.cloudinary.com/deoe4gcly/image/upload/v1677246475/331698751_567970978588393_2030588198658149491_n_fnwmc9.jpg');
+    opacity: 0.9 ;
+    height: 80vh;
+    background-size: COVER;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+
+
+
+}
+
+.home_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tittle_image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.button_main{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 0;
+}
+.products{
+    background: #0BBACF;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+}
+.card_products img{
+    height: 200px;
+}
+.card_products{
+   width: 20%;
+}
